@@ -1,0 +1,137 @@
+body {
+	background-color: #f1f1f1;
+	font-size: 14px;
+	color: #333333;
+	font-family: Helvetica Neue, Helvetica, sans-serif;
+}
+.uni-list-item{
+	padding-left: 0!important;
+	/* border: 1px solid transparent; */
+}
+.uni-list-item__container{
+	min-height: 54px;
+	padding: 10px 15px!important;
+	/* border: 1px solid transparent; */
+}
+.uni-list-item__content-title{
+	font-size: 17px!important;
+}
+.uni-list-item__icon{
+	height: 40px;
+	margin-right: 9px!important;
+	display: flex;
+}
+.uni-list-item__icon-img{
+	height: 40px!important;
+	width: 40px!important;
+	border-radius: 3px!important;
+}
+.uni-list-item__extra{
+	width: 15%!important;
+}
+.uni-form-item{
+	padding: 5px 0!important;
+}
+.title{
+	font-size: 14px;
+	padding: 5px 12px!important;
+	color: #999;
+}
+
+.uni-input{
+	line-height: 24px!important;
+	height: 30px!important;
+	font-size: 17px!important;
+	padding: 15px 12px!important;
+}
+textarea.uni-input{height: 180px!important;}
+
+.uni-list-cell .uni-list-cell-navigate{
+	min-height: 54px;
+	font-size: 17px;
+	padding: 10px 15px;
+}
+
+.pg_list_cell_right{
+	padding-right:20px;
+	width: 50%;
+	text-align: right;
+}
+.pg_list_cell_left{width: 50%;}
+
+.pg_media_list{
+	padding-bottom: 25px!important;
+	padding-top: 15px!important;
+}
+.pg_media_list_logo{
+	width: 65px!important;height: 65px!important;
+	border-radius: 5px!important;
+	margin-right: 13px!important;
+}
+.pg_media_list_body{
+	height: auto!important;
+}
+.pg_media_list_text{
+	font-size: 20px!important;
+	font-weight: 700!important;
+	line-height: 25px!important;
+	padding-bottom: 6px!important;
+}
+.pg_media_list_bottom{
+	line-height: 15px!important;
+	padding-bottom: 8px!important;
+	font-size: 14px!important;
+}
+.pg_uni_media_list::before{
+	background-color: #fff!important;
+}
+
+.pg_navigate_right{padding: 0!important;}
+
+.pg_popup .uni-popup__wrapper-box{padding: 0!important;}
+
+
+.uni-badge-error{margin-right: 5px!important;}
+
+.pg_media_list_right{
+	height: 42px;line-height: 42px;
+	color: #999;
+	font-size: 12px;
+}
+
+
+.text-blue,
+.line-blue,
+.lines-blue {
+	color: #0081ff;
+}
+
+/* 群头像公共样式 */
+.uni-media-list-logo view{
+	width: 100%;
+	height: 100%;
+	border-radius: 2px;
+	display: flex;
+}
+.uni-media-list-logo image{border-radius: 5px;}
+
+.uni-list-item__container:after {
+	/* height: 0!important; */
+	left: 15px!important;
+	/* #ifdef APP-PLUS */
+	background-color: transparent!important;
+	/* #endif */
+}
+
+.uni-list-cell::after{
+	/* height:0; */
+	/* background-color: #09BB07!important; */
+}
+.tui-actionsheet-btn{
+	font-size: 18px!important;
+	line-height: 50px!important;
+	height: 50px!important;
+}
+.uni-media-list-right{
+	font-size: 14px!important;
+}
